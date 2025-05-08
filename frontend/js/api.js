@@ -11,7 +11,7 @@ const API = {
      * @returns {Promise} - API yanıtı
      */
     request: async function(endpoint, method = 'GET', data = null) {
-        const url = `${CONFIG.API_URL}${endpoint}`;
+        const url = `${CONFIG.API_URL}${restaurant-management-system-production-bb5f.up.railway.app}`;
         
         const headers = {
             'Content-Type': 'application/json'
